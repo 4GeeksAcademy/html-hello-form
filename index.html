@@ -10,9 +10,10 @@
 <body>
    
         <form action="#" class="credit-card-div">
-          <div class="title">
+          <div class="alert alert-danger" role="alert">
             <h2>some fields are missing</h2>
           </div>
+         
             <div class="contenedor">
              
              <div class="row ">
@@ -20,7 +21,7 @@
                           <span class="help-block "><h5>Card # </h5></span>
                           <input type="text" class="form-control" placeholder="XXXXXXXX" />
                       </div>
-                 <div class="col-md-3 col-sm-3 col-xs-3">
+                 <div class="col-md-4 col-sm-3 col-xs-3">
                           <span class="help-block "><h5>CVC #</h5></span>
                           <input type="text" class="form-control" placeholder="0000" />
                       </div>
@@ -29,7 +30,7 @@
                           <input type="text" class="form-control" placeholder="$ Amount" />
                       </div>
                       <div class="row">
-                        <div class="col-md-5 col-sm-5 col-xs-5">
+                        <div class="col-md-6 col-sm-5 col-xs-5">
                             <span class="help-block "><h5>First Name</h5></span>
                             <input type="text" class="form-control" placeholder="Write your name" />
                         </div>
@@ -43,7 +44,7 @@
                             <span class="help-block "><h5> City</h5></span>
                             <input type="text" class="form-control" placeholder="write your city" />
                         </div>
-                   <div class="col-md-3 col-sm-3 col-xs-3">
+                   <div class="col-md-2 col-sm-3 col-xs-3">
                     <span class="help-block "><h5>State</h5></span>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Pick a state</option>
@@ -52,7 +53,7 @@
                         <option value="3">Florida</option>
                       </select>
                         </div>
-                  <div class="col-md-3,4 col-sm-3 col-xs-5">
+                  <div class="col-md-5 col-sm-3 col-xs-5">
                             <span class="help-block "><h5>Postal Code</h5></span>
                             <input type="op" class="form-control" placeholder=" Write number" />
                         </div>
@@ -63,39 +64,43 @@
           </div>
               </div>
                 <div class="row ">
+
                       <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
                       <span class="help-block "><h5>We accept:</h5></span>
-                      <div class="form-check form-check-inline">
+                      <div class="bg-secondary text-white p-2 col-md-6">
+                      <div class="form-check form-check-inline bg-secondary text-white">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                         <label class="form-check-label" for="inlineRadio1"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
                           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
                           <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
                         </svg></label>
                       </div>
-                      <div class="form-check form-check-inline">
+                      <div class="form-check form-check-inline bg-secondary text-white">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
                           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
                           <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
                         </svg></label>
                       </div>
-                      <div class="form-check form-check-inline">
+                      <div class="form-check form-check-inline bg-secondary text-white">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
                           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
                           <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
                         </svg></label>
                       </div>
-                     
+                    </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
                         <span class="help-block "><h5>Message</h5></span>
                         <textarea name="text" id="" cols="50" rows="5"></textarea>
                         <br>
+                        
+                      </div>
+                      <div class="d-flex justify-content-end">
                         <input type="submit"  class="btn btn-dark btn-block" value="CANCEL" />
                       <input type="submit"  class="btn btn-primary" value="Send" />
                       </div>
-                      
                   </div>
              
                            </div>
